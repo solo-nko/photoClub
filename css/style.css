@@ -1,8 +1,24 @@
 body
 {
-   padding: 0 5%;
    margin: 0;
    background-color: #FFE5B5;
+}
+
+main
+{
+   padding: 0 5%;
+}
+
+h1
+{
+   text-align: center;
+}
+
+nav
+{
+   margin: 0 5%;
+   display: flex;
+   justify-content: space-evenly;
 }
 
 footer,
@@ -16,16 +32,48 @@ header
    display: flex;
 }
 
+#intro-text
+{
+   width: 60%;
+}
+
 #hero-img-container
 {
-   width: 50%;
+   width: 40%;
+   background-color: #A37014;
+}
 
-   background-color: gray;
+.delimiter
+{
+   margin: 1rem 0;
+   height: 3px;
+   width: 100%;
+   background-color: #A37014;
+}
+
+#carousel-container
+{
+   width: 80%;
+   margin: 0 auto;
+   height: 250px;
+   background-color: #64A2F0;
+}
+
+#news
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#news-container
+{
+   width: 80%;
+   margin: 0 auto;
+   background-color: #A37014;
+   height: 8rem;
 }
 
 footer
 {
-   position: fixed;
-   bottom: 0;
    width: 100%;
 }
