@@ -1,0 +1,31 @@
+body
+{
+   padding: 0 5%;
+   margin: 0;
+   background-color: #FFE5B5;
+}
+
+footer,
+header
+{
+   background-color: #64A2F0;
+}
+
+#sect-intro
+{
+   display: flex;
+}
+
+#hero-img-container
+{
+   width: 50%;
+
+   background-color: gray;
+}
+
+footer
+{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
