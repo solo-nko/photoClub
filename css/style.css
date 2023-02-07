@@ -48,9 +48,15 @@ header
    background-color: #A37014;
 }
 
+#hero-img-container img
+{
+   width: 100%;
+   object-fit: cover;
+}
+
 .delimiter
 {
-   margin: 1rem 0;
+   margin: 1.5rem 0;
    height: 4px;
    width: 100%;
    box-shadow: 3px 3px #215BA3;
@@ -61,7 +67,7 @@ header
 {
    width: 80%;
    margin: 0 auto;
-   height: 300px;
+   height: 200px;
    background-color: #64A2F0;
 }
 
@@ -118,6 +124,7 @@ header
    background-color: #215BA3;
    border-radius: 50%;
    border: .2rem solid #64A2F0;
+   opacity: 0.7;
    width: 1.2rem;
    height: 1.2rem;
    outline: none;
